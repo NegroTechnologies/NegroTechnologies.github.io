@@ -238,4 +238,51 @@ body {
   border-bottom: 1px dashed #00ff87;
 }
 
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 1rem;
+  }
+  .glitch {
+    font-size: 2.2rem;
+    text-align: center;
+    word-break: break-word;
+  }
+  .img img,
+  #dwupak {
+    width: 90vw;
+    max-width: 300px;
+    height: auto;
+    transform: scale(1);
+    display: block;
+    margin: 0 auto;
+  }
+  .invest-btn {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.8rem 0;
+    margin-top: 1.5rem;
+  }
+  .site-footer {
+    font-size: 0.95rem;
+    padding: 1.2rem 0 0.5rem 0;
+  }
+  .footer-labels {
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .footer-section {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .footer-content {
+    min-width: 0;
+    width: 100%;
+    font-size: 0.95rem;
+    word-break: break-word;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
